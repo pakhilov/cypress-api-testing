@@ -4,8 +4,8 @@ import tasks from './cypress/support/tasks'
 import esbuildPreprocessor from './cypress/support/esbuild-preprocessor'
 
 export default defineConfig({
-  viewportHeight: 1280,
-  viewportWidth: 1280,
+  viewportHeight: 600,
+  viewportWidth: 600,
   projectId: '4q6j7j',
 
   e2e: {
