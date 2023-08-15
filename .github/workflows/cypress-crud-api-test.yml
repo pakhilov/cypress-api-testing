@@ -62,7 +62,7 @@ jobs:
         uses: cypress-io/github-action@v5.8.3
         with:
           browser: chrome
-          record: true
+          record: false
           group: e2e-tests
           tag: e2e-tests
         env:
